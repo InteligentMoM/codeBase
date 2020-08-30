@@ -1,0 +1,1 @@
+in this case you are trying to use IBM Watson API to perform the transcription. which speaker notation and the timestamp recognition right?"', "'Correct, correct?'" "already tested on I I think we will <mark>need</mark> to do some <mark>sort</mark> of <mark>work</mark> on that, even though the percentage is quite low.'," "birds." "this would be exactly."

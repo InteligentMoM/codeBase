@@ -1,0 +1,8 @@
+python Enter_Audio_Name.py --audio "wavs/test.wav"
+python speakerDiarization.py
+python Audio_Segment.py --audio_name test
+python Azure_Speech2Text_Transcription.py --audio_name test
+python Keyword_Extraction_Transcript.py --input_text_file_path transcripts/test_transcript.csv --output_text_file_path transcripts/transcript_with_keyword.csv
+python Summarization.py --audio_name test
+python Keyword_Extraction_Summary.py --input_text_file_path summary/test_summary.txt --output_text_file_path keyword_extracted/extracted_keyword.txt
+python TextToSpeech.py --audio_name test  
